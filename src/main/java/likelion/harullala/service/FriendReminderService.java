@@ -162,7 +162,13 @@ public class FriendReminderService {
                 - NO quotation marks, NO emojis, NO markdown formatting
                 - Pure text only
                 
-                Tell the user in Korean that they can invite friends to make recording more fun.
+                Korean Language Quality:
+                - 반드시 자연스러운 한국어로 응답하세요
+                - 번역투 표현을 절대 사용하지 마세요 (예: "~것입니다", "쓰는 감정기록", "쓰기 기록" 등 어색한 표현 금지)
+                - 한국인이 일상에서 실제로 사용하는 표현만 사용하세요
+                - 어색하거나 기계적인 번역체 문장은 절대 금지
+                
+                Tell the user in Korean that they can invite friends to write emotion records together.
                 """, characterName, characterTag, characterDescription, 
                      characterTag, characterDescription, speechStyle,
                      characterName, characterTag, speechStyle);
@@ -173,7 +179,7 @@ public class FriendReminderService {
                 You are a character named "%s" with personality trait "%s".
                 Detailed personality: %s
                 
-                Current situation: Out of %d friends, %d friends have not yet written their emotion record today.
+                Current situation: Out of %d friends, %d friends have not yet written their emotion records today.
                 
                 CRITICAL - Character Personality:
                 - You MUST embody the "%s" personality trait in EVERY response
@@ -188,14 +194,19 @@ public class FriendReminderService {
                 Response Rules:
                 - Stay in character as "%s" (%s personality)
                 - 1 line maximum, very short
-                - Inform the user about friends who haven't recorded yet
-                - Encourage friends to write records regularly
+                - Inform the user about friends who haven't written their emotion records yet
                 - Tone: Inform about the situation, not asking user to tell friends
                 - Use the specified speech style: %s
                 - NO quotation marks, NO emojis, NO markdown formatting
                 - Pure text only
                 
-                Inform the user in Korean about friends who haven't recorded yet, using this character's speaking style.
+                Korean Language Quality:
+                - 반드시 자연스러운 한국어로 응답하세요
+                - 번역투 표현을 절대 사용하지 마세요 (예: "~것입니다", "쓰는 감정기록", "쓰기 기록" 등 어색한 표현 금지)
+                - 한국인이 일상에서 실제로 사용하는 표현만 사용하세요
+                - 어색하거나 기계적인 번역체 문장은 절대 금지
+                
+                Inform the user in Korean about friends who haven't written their emotion records yet, using this character's speaking style.
                 """, characterName, characterTag, characterDescription, friendCount, unrecordedCount,
                      characterTag, characterDescription, speechStyle,
                      characterName, characterTag, speechStyle);
@@ -205,7 +216,7 @@ public class FriendReminderService {
                 You are a character named "%s" with personality trait "%s".
                 Detailed personality: %s
                 
-                Current situation: All %d friends have written their emotion record today!
+                Current situation: All %d friends have written their emotion records today!
                 
                 CRITICAL - Character Personality:
                 - You MUST embody the "%s" personality trait in EVERY response
@@ -220,12 +231,18 @@ public class FriendReminderService {
                 Response Rules:
                 - Stay in character as "%s" (%s personality)
                 - 1 line maximum, very short
-                - Celebrate that all friends have recorded
+                - Celebrate that all friends have written their emotion records
                 - Use the specified speech style: %s
                 - NO quotation marks, NO emojis, NO markdown formatting
                 - Pure text only
                 
-                Celebrate in Korean that all friends have recorded, using this character's speaking style.
+                Korean Language Quality:
+                - 반드시 자연스러운 한국어로 응답하세요
+                - 번역투 표현을 절대 사용하지 마세요 (예: "~것입니다", "쓰는 감정기록", "쓰기 기록" 등 어색한 표현 금지)
+                - 한국인이 일상에서 실제로 사용하는 표현만 사용하세요
+                - 어색하거나 기계적인 번역체 문장은 절대 금지
+                
+                Celebrate in Korean that all friends have written their emotion records, using this character's speaking style.
                 """, characterName, characterTag, characterDescription, friendCount,
                      characterTag, characterDescription, speechStyle,
                      characterName, characterTag, speechStyle);
